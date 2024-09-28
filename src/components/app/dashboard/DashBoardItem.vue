@@ -64,10 +64,10 @@
                         <div class="natives">
                             <div class="tokens">
                                 <div class="images">
-                                    <img src="/images/eth.png" alt="">
-                                    <img src="/images/btc.png" alt="">
-                                    <img src="/images/cbeth.png" alt="">
-                                    <img src="/images/link.png" alt="">
+                                    <img src="../../../assets/images/eth.png" alt="">
+                                    <img src="../../../assets/images/btc.png" alt="">
+                                    <img src="../../../assets/images/cbeth.png" alt="">
+                                    <img src="../../../assets/images/link.png" alt="">
                                     <p>Natives</p>
                                 </div>
                                 <div class="percent">{{ getProgress('native') }}%</div>
@@ -81,8 +81,8 @@
                         <div class="stables">
                             <div class="tokens">
                                 <div class="images">
-                                    <img src="/images/usdc.png" alt="">
-                                    <img src="/images/dai.png" alt="">
+                                    <img src="../../../assets/images/usdc.png" alt="">
+                                    <img src="../../../assets/images/dai.png" alt="">
                                     <p>Stables</p>
                                 </div>
                                 <div class="percent">{{ getProgress('stable') }}%</div>
